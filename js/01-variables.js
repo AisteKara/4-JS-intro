@@ -52,7 +52,7 @@ console.log('-----------');
 const pazymiai = [5, 7, 8, 3, 10, 7];
 console.log(pazymiai);
 
-const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+const abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
 console.log(abc);
 
 const pirmasPazymys = pazymiai[0];
@@ -70,3 +70,16 @@ const pazymiuVidurkis = pazymiuSuma / pazymiuKiekis;
 console.log('Pazymiu suma:', pazymiuSuma);
 console.log('Pazymiu kiekis:', pazymiuKiekis);
 console.log('Pazymiu vidurkis:', pazymiuVidurkis);
+
+
+const x = 'dsdsgdfdgssdfn;n';
+console.log(x);
+
+const abcIlgis =abc.length;
+const paskutinesraidespozicija = abcIlgis - 1;
+
+const paskutineRaide = abc[paskutinesraidespozicija];
+console.log(paskutineRaide);
+// is mums zinomos x raidziu abeceles paskutine yra 'y"
+const abcAtsakymas = 'is mums zinomos ' + abcIlgis + ' raidziu abeceles paskutine yra "' + paskutineRaide + '".';
+console.log(abcAtsakymas);
