@@ -1,3 +1,17 @@
+/*
+IF STATEMENT:
+logikos sablonai
+if () {}
+if () {} else {}
+if () {} else if {}
+if () {} else if {} ...  else if {}
+if () {} else if {} ...  else if {} else {}
+palyginimo operatoriai:
+- visi: >, <, >=, <=, ==, !=, ===, !==, !
+- naudotini: >, <, >=, <=, ===, !==, !
+- nenaudotini: ==, !=   (nes nera tikrinamas reiksmiu tipas)
+loginiai operatoriai: &&, ||
+*/
 
 const cookiesAgreed = true;
 
