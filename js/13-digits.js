@@ -26,7 +26,5 @@ console.log(digits(Infinity));
 console.log(digits(-Infinity));
 console.log(digits());
 console.log(digits(null));
-console.log(digits(-Infinity));
-
 console.log(digits(“asd”));
 console.log(digits(NaN));
